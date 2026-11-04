@@ -10,7 +10,7 @@ burger.addEventListener('click', () => toggleMenu(menu.classList.contains('hidde
 menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
 
 // ---- Rotación de roles con efecto máquina de escribir ----
-const roles = ['Soporte técnico', 'Redes y hardware', 'Diseño de piezas 3D'];
+const roles = ['Ezequiel Alfonso Porfolio'];
 const el = document.getElementById('role');
 const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let r = 0, c = 0, del = false;
