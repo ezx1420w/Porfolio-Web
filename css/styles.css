@@ -1,8 +1,8 @@
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
   body { background:#0a0a0c; }
-  /* Fondo: cuadrícula tenue que se desvanece */
+
   .grid-bg { background-image: linear-gradient(#ffffff08 1px, transparent 1px), linear-gradient(90deg, #ffffff08 1px, transparent 1px); background-size: 44px 44px; -webkit-mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%); mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%); }
-  /* Marco brillante de la foto */
+
   .ring-glow { background: conic-gradient(from 140deg, #3dffa0, #38bdf8, #0a0a0c 55%, #3dffa0); box-shadow: 0 0 60px -10px #3dffa055; }
   .cursor::after { content:''; display:inline-block; width:2px; height:1em; margin-left:3px; background:#3dffa0; vertical-align:-0.12em; animation: blink 1s steps(2) infinite; }
   @keyframes blink { 50% { opacity:0; } }
