@@ -1,0 +1,16 @@
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { background:#0a0a0c; }
+  /* Fondo: cuadrícula tenue que se desvanece */
+  .grid-bg { background-image: linear-gradient(#ffffff08 1px, transparent 1px), linear-gradient(90deg, #ffffff08 1px, transparent 1px); background-size: 44px 44px; -webkit-mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%); mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%); }
+  /* Marco brillante de la foto */
+  .ring-glow { background: conic-gradient(from 140deg, #3dffa0, #38bdf8, #0a0a0c 55%, #3dffa0); box-shadow: 0 0 60px -10px #3dffa055; }
+  .cursor::after { content:''; display:inline-block; width:2px; height:1em; margin-left:3px; background:#3dffa0; vertical-align:-0.12em; animation: blink 1s steps(2) infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+  .rv { opacity:0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+  .rv.in { opacity:1; transform:none; }
+  .card:hover { border-color:#3dffa066; transform: translateY(-3px); }
+  .card { transition: border-color .25s, transform .25s; }
+  .proj { transition: opacity .3s, transform .3s; }
+  .proj.off { display:none; }
+  :focus-visible { outline:2px solid #3dffa0; outline-offset:3px; border-radius:6px; }
+  @media (prefers-reduced-motion: reduce) { .rv { opacity:1; transform:none; transition:none; } .cursor::after { animation:none; } html { scroll-behavior:auto; } }

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ezequiel Aguilar · Soporte Técnico & Desarrollador Web Junior</title>
+<meta name="description" content="Portafolio de Ezequiel Alfonso Aguilar, estudiante de 7.º año de Escuela Técnica (Informática) en Buenos Aires. Busco mi primer empleo formal en IT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Tailwind por CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="js/tailwind.config.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans text-[#e6e6ea] antialiased">
+
+
+<svg width="0" height="0" class="hidden" aria-hidden="true">
+  <symbol id="i-gh" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/></symbol>
+  <symbol id="i-in" viewBox="0 0 24 24"><path fill="currentColor" d="M20.4 20.5h-3.6v-5.600c0-1.300 0-3-1.800-3s-2.100 1.400-2.100 2.900v5.700H9.300V9h3.400v1.600c.5-.9 1.600-1.800 3.400-1.800 3.600 0 4.300 2.400 4.300 5.500v6.200ZM5.300 7.400a2.100 2.100 0 1 1 0-4.200 2.100 2.100 0 0 1 0 4.200ZM7.100 20.500H3.600V9h3.500v11.500ZM22.200 0H1.800C.8 0 0 .8 0 1.700v20.600c0 .9.8 1.700 1.800 1.700h20.400c1 0 1.800-.8 1.800-1.700V1.700C24 .8 23.200 0 22.200 0Z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></g></symbol>
+  <symbol id="i-pc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></g></symbol>
+  <symbol id="i-net" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="2" y="16" width="6" height="5" rx="1"/><rect x="16" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M5 16v-4h14v4"/></g></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8 4.500v9L12 21l-8-4.500v-9L12 3Zm0 9 8-4.500M12 12v9M12 12 4 7.500"/></g></symbol>
+</svg>
+
+
+<header class="fixed top-0 inset-x-0 z-50 border-b border-line/70 bg-bg/80 backdrop-blur">
+  <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between" aria-label="Principal">
+    <a href="#inicio" class="font-semibold tracking-tight text-white">Ezequiel Aguilar<span class="text-neon">_</span></a>
+    <ul class="hidden md:flex items-center gap-8 text-sm text-mute">
+      <li><a class="hover:text-white transition" href="#sobre-mi">Sobre mí</a></li>
+      <li><a class="hover:text-white transition" href="#habilidades">Habilidades</a></li>
+      <li><a class="hover:text-white transition" href="#proyectos">Proyectos</a></li>
+      <li><a class="hover:text-white transition" href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="flex items-center gap-1">
+      <a href="https://github.com/ezx1420w" target="_blank" rel="noopener" aria-label="GitHub" class="p-2 text-mute hover:text-white transition"><svg class="w-5 h-5"><use href="#i-gh"/></svg></a>
+      <a href="https://www.linkedin.com/in/ezequiel-alfonso-aguilar" target="_blank" rel="noopener" aria-label="LinkedIn" class="p-2 text-mute hover:text-white transition"><svg class="w-5 h-5"><use href="#i-in"/></svg></a>
+   
+      <button id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden ml-1 p-2 text-white">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path id="b-open" d="M4 7h16M4 12h16M4 17h16"/><path id="b-close" class="hidden" d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="hidden md:hidden border-t border-line bg-bg">
+    <ul class="px-5 py-3 text-mute">
+      <li><a class="block py-3 hover:text-white" href="#sobre-mi">Sobre mí</a></li>
+      <li><a class="block py-3 hover:text-white" href="#habilidades">Habilidades</a></li>
+      <li><a class="block py-3 hover:text-white" href="#proyectos">Proyectos</a></li>
+      <li><a class="block py-3 hover:text-white" href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section id="inicio" class="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+  <div class="grid-bg absolute inset-0 -z-10"></div>
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-[1.3fr_1fr] gap-14 items-center">
+    <div>
+      <p class="font-mono text-sm text-neon mb-5">Buenos Aires, Argentina</p>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] text-white">Tecnico en informatica, redes y sistemas operativos.</h1>
+      <p class="mt-5 font-mono text-lg text-cyan h-7"><span id="role" class="cursor"></span></p>
+      <p class="mt-6 max-w-xl text-mute text-lg leading-relaxed">Soy Ezequiel, estudiante de 7.º año de Escuela Técnica con orientación en Informática, con el objetivo de mejorar mi carrera profesional y aportar mis conocimientos en los problemas que se me plantean.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#proyectos" class="px-5 py-3 rounded-lg bg-neon text-black font-semibold hover:brightness-110 transition">Ver proyectos</a>
+        <a href="#contacto" class="px-5 py-3 rounded-lg border border-line text-white hover:border-neon/60 transition">Contactar</a>
+     
+      </div>
+    </div>
+
+    <div class="mx-auto w-64 sm:w-72 md:w-full max-w-[22rem]">
+      <div class="ring-glow rounded-full p-[3px] aspect-square">
+        <div class="w-full h-full rounded-full overflow-hidden bg-[#f0f0f0]">
+          <img src="assets/img/avatar.png" alt="Ezequiel Aguilar" class="w-full h-full object-cover" style="image-rendering:pixelated">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="sobre-mi" class="py-20 border-t border-line/60">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-[1fr_1.6fr] gap-10">
+    <h2 class="rv text-3xl font-bold tracking-tight text-white">Sobre mí</h2>
+    <div class="rv space-y-4 text-mute text-lg leading-relaxed max-w-2xl">
+      <p class="mb-4">
+  Cursando el último año de la escuela secundaria técnica, enfocado en el diagnóstico de hardware, infraestructura de redes y desarrollo de software.
+</p>
+
+<p class="mb-4">
+  Mi formación combina el mantenimiento de equipamiento e instalaciones físicas (redes, armado de PCs, Uso de Softwares) con la programación de sistemas y gestión de bases de datos. Esta visión integral me permite abordar problemas informáticos de manera optima.
+</p>
+
+<p>
+  - Actualmente en búsqueda de mi primera oportunidad laboral o pasantía técnica para aplicar mis conocimientos en proyectos reales.
+</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="habilidades" class="py-20 border-t border-line/60">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="rv text-3xl font-bold tracking-tight text-white mb-10">Habilidades técnicas</h2>
+    <div class="grid sm:grid-cols-2 gap-5">
+      <article class="rv card bg-card border border-line rounded-xl p-6">
+        <svg class="w-7 h-7 text-neon mb-4"><use href="#i-code"/></svg>
+        <h3 class="text-lg font-semibold text-white">Desarrollo web y bases de datos</h3>
+        <p class="mt-2 text-mute">HTML, CSS y JavaScript. Normalización y modelado de bases de datos.</p>
+      </article>
+      <article class="rv card bg-card border border-line rounded-xl p-6">
+        <svg class="w-7 h-7 text-cyan mb-4"><use href="#i-pc"/></svg>
+        <h3 class="text-lg font-semibold text-white">Soporte y hardware</h3>
+        <p class="mt-2 text-mute">Ensamblado, diagnóstico y reparación de PCs y netbooks.</p>
+      </article>
+      <article class="rv card bg-card border border-line rounded-xl p-6">
+        <svg class="w-7 h-7 text-cyan mb-4"><use href="#i-net"/></svg>
+        <h3 class="text-lg font-semibold text-white">Redes y seguridad</h3>
+        <p class="mt-2 text-mute">Cableado estructurado, redes locales e instalación de cámaras de seguridad (CCTV).</p>
+      </article>
+      <article class="rv card bg-card border border-line rounded-xl p-6">
+   
+<svg class="w-7 h-7 text-neon mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <polyline points="4 17 10 11 4 5"></polyline>
+  <line x1="12" y1="19" x2="20" y2="19"></line>
+</svg>
+        <h3 class="text-lg font-semibold text-white">Software y Sistemas Operativoa</h3>
+        <p class="mt-2 text-mute">Instalacion de sistemas windows y linux, con experiencias en distribuciones como EdeavourOS, Debian, Ubuntu y Cachy linux</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="proyectos" class="py-20 border-t border-line/60">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="rv text-3xl font-bold tracking-tight text-white">Proyectos y experiencia práctica</h2>
+    <!-- Filtros -->
+    <div id="filters" class="rv mt-6 mb-10 flex flex-wrap gap-2 text-sm" role="group" aria-label="Filtrar proyectos">
+      <button data-f="all" class="f px-4 py-2 rounded-full border border-neon text-neon" aria-pressed="true">Todos</button>
+      <button data-f="web" class="f px-4 py-2 rounded-full border border-line text-mute hover:text-white" aria-pressed="false">Web</button>
+      <button data-f="soporte" class="f px-4 py-2 rounded-full border border-line text-mute hover:text-white" aria-pressed="false">Soporte</button>
+      <button data-f="redes" class="f px-4 py-2 rounded-full border border-line text-mute hover:text-white" aria-pressed="false">Redes</button>
+      <button data-f="fab" class="f px-4 py-2 rounded-full border border-line text-mute hover:text-white" aria-pressed="false">Fabricación</button>
+    </div>
+    <div class="grid md:grid-cols-2 gap-5">
+      
+      <article class="proj rv card bg-card border border-line rounded-xl p-6" data-c="soporte">
+        <h3 class="text-lg font-semibold text-white">Mantenimiento y reparación de equipos</h3>
+        <p class="mt-2 text-mute">Diagnóstico, limpieza y solución de fallas de hardware y software en PCs y netbooks.</p>
+        <p class="mt-4 font-mono text-xs text-cyan">Diagnóstico · Hardware · Sistemas operativos</p>
+      </article>
+      <article class="proj rv card bg-card border border-line rounded-xl p-6" data-c="redes">
+        <h3 class="text-lg font-semibold text-white">Instalación de sistemas de camaras de seguridad</h3>
+        <p class="mt-2 text-mute">Montaje y configuración de redes CCTV: cámaras, cableado y conexiones de red local.</p>
+        <p class="mt-4 font-mono text-xs text-cyan">CCTV · Cableado estructurado · Redes locales</p>
+      </article>
+      <article class="proj rv card bg-card border border-line rounded-xl p-6" data-c="fab">
+        <h3 class="text-lg font-semibold text-white">Fabricación digital y prototipado</h3>
+        <p class="mt-2 text-mute">Piezas y prototipos con impresión 3D usando programas de CAD como FUSION 360 y corte láser.</p>
+        <p class="mt-4 font-mono text-xs text-cyan">Impresión 3D · Corte láser</p>
+      </article>
+     
+      <article class="proj rv card bg-card border border-line rounded-xl p-6" data-c="web">
+        <h3 class="text-lg font-semibold text-white">Método de costo mínimo y esquina noroeste</h3>
+        <p class="mt-2 text-mute">Herramienta para resolver problemas de transporte con esos dos métodos.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <p class="font-mono text-xs text-cyan">JavaScript</p>
+          <a class="text-sm text-neon hover:underline" target="_blank" rel="noopener" href="https://github.com/ezx1420w/Metodo-costo-minimo-y-esquina-noroeste-">Ver repo</a>
+        </div>
+      </article>
+      <article class="proj rv card bg-card border border-line rounded-xl p-6" data-c="web">
+        <h3 class="text-lg font-semibold text-white">Tracker de horas de prácticas</h3>
+        <p class="mt-2 text-mute">Prueba para llevar la cuenta de las 200 horas de prácticas profesionalizantes.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <p class="font-mono text-xs text-cyan">JavaScript</p>
+          <a class="text-sm text-neon hover:underline" target="_blank" rel="noopener" href="https://github.com/ezx1420w/Tracker-de-horas-IA-">Ver repo</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="personales" class="py-20 border-t border-line/60">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="rv text-3xl font-bold tracking-tight text-white mb-8">Habilidades personales</h2>
+    <ul class="rv flex flex-wrap gap-3 text-white">
+      <li class="px-4 py-2 rounded-lg bg-card border border-line">Curiosidad por aprender</li>
+      <li class="px-4 py-2 rounded-lg bg-card border border-line">Trabajo en equipo</li>
+      <li class="px-4 py-2 rounded-lg bg-card border border-line">Organización</li>
+      <li class="px-4 py-2 rounded-lg bg-card border border-line">Adaptabilidad</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contacto" class="py-24 border-t border-line/60">
+  <div class="max-w-3xl mx-auto px-5 text-center rv">
+    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white">Si tenés estas interesado, contactame.</h2>
+    <p class="mt-4 text-mute text-lg">Escribime por LinkedIn o Gmail.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="https://www.linkedin.com/in/ezequiel-alfonso-aguilar" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-neon text-black font-semibold hover:brightness-110 transition"><svg class="w-5 h-5"><use href="#i-in"/></svg>LinkedIn</a>
+      <a href="https://github.com/ezx1420w" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-line text-white hover:border-neon/60 transition"><svg class="w-5 h-5"><use href="#i-gh"/></svg>GitHub</a>
+      <button id="copy" class="px-5 py-3 rounded-lg border border-line text-white hover:border-neon/60 transition font-mono text-sm">Copiar email</button>
+    </div>
+    <p id="toast" class="mt-4 h-5 font-mono text-sm text-neon" role="status" aria-live="polite"></p>
+  </div>
+</section>
+</main>
+
+<footer class="border-t border-line/60 py-8 text-sm text-mute">
+  <div class="max-w-6xl mx-auto px-5 flex flex-col sm:flex-row gap-3 justify-between">
+    <p>© <span id="year"></span> Ezequiel Alfonso Aguilar. Todos los derechos reservados.</p>
+    <p>Buenos Aires, Argentina</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
